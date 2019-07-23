@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demoshiro" />
+        <module name="demoshiroarchetypemavenhelloworld" />
+        <module name="demoshiroarchetypemavenwebapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-code" target="1.5" />
+      <module name="demoshiro" target="1.7" />
+      <module name="demoshiroarchetypemavenhelloworld" target="1.7" />
+      <module name="demoshiroarchetypemavenwebapp" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

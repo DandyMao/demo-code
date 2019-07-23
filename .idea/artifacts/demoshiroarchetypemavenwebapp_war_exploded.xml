@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demoshiroarchetypemavenwebapp:war exploded">
+    <output-path>$PROJECT_DIR$/demo-shiro-archetype-maven-webapp/target/demo-shiro-archetype-maven-webapp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demoshiroarchetypemavenwebapp" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/demo-shiro-archetype-maven-webapp/target/demo-shiro-archetype-maven-webapp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="demoshiroarchetypemavenwebapp/web/Web" />
+    </root>
+  </artifact>
+</component>
